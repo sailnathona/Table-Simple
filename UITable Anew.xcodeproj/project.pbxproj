@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		EF983DF91B65331D009A62D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF983DF81B65331D009A62D1 /* main.m */; };
 		EF983DFC1B65331D009A62D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF983DFB1B65331D009A62D1 /* AppDelegate.m */; };
-		EF983DFF1B65331D009A62D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF983DFE1B65331D009A62D1 /* ViewController.m */; };
 		EF983E021B65331D009A62D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF983E001B65331D009A62D1 /* Main.storyboard */; };
 		EF983E041B65331D009A62D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF983E031B65331D009A62D1 /* Images.xcassets */; };
 		EF983E071B65331D009A62D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF983E051B65331D009A62D1 /* LaunchScreen.xib */; };
 		EF983E131B65331E009A62D1 /* UITable_AnewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF983E121B65331E009A62D1 /* UITable_AnewTests.m */; };
+		EF983E1E1B662B3F009A62D1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF983E1D1B662B3F009A62D1 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		EF983DF81B65331D009A62D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF983DFA1B65331D009A62D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF983DFB1B65331D009A62D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF983DFD1B65331D009A62D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF983DFE1B65331D009A62D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF983E011B65331D009A62D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF983E031B65331D009A62D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF983E061B65331D009A62D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EF983E0C1B65331E009A62D1 /* UITable AnewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITable AnewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF983E111B65331E009A62D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF983E121B65331E009A62D1 /* UITable_AnewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITable_AnewTests.m; sourceTree = "<group>"; };
+		EF983E1C1B662B3F009A62D1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EF983E1D1B662B3F009A62D1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +81,10 @@
 		EF983DF51B65331D009A62D1 /* UITable Anew */ = {
 			isa = PBXGroup;
 			children = (
+				EF983E1C1B662B3F009A62D1 /* TableViewController.h */,
+				EF983E1D1B662B3F009A62D1 /* TableViewController.m */,
 				EF983DFA1B65331D009A62D1 /* AppDelegate.h */,
 				EF983DFB1B65331D009A62D1 /* AppDelegate.m */,
-				EF983DFD1B65331D009A62D1 /* ViewController.h */,
-				EF983DFE1B65331D009A62D1 /* ViewController.m */,
 				EF983E001B65331D009A62D1 /* Main.storyboard */,
 				EF983E031B65331D009A62D1 /* Images.xcassets */,
 				EF983E051B65331D009A62D1 /* LaunchScreen.xib */,
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF983DFF1B65331D009A62D1 /* ViewController.m in Sources */,
 				EF983DFC1B65331D009A62D1 /* AppDelegate.m in Sources */,
+				EF983E1E1B662B3F009A62D1 /* TableViewController.m in Sources */,
 				EF983DF91B65331D009A62D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

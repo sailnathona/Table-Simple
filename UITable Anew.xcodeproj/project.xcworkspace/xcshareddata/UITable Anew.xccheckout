@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>262CE854-F030-4D33-B040-E062B098EEBC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0A986CA4934D260CE7FD5ED7DFF664A9DD0F0460</key>
+		<string>https://github.com/sailnathona/Table-Simple.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UITable Anew.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0A986CA4934D260CE7FD5ED7DFF664A9DD0F0460</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sailnathona/Table-Simple.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0A986CA4934D260CE7FD5ED7DFF664A9DD0F0460</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0A986CA4934D260CE7FD5ED7DFF664A9DD0F0460</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UITable%20Anew</string>
+		</dict>
+	</array>
+</dict>
+</plist>
